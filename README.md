@@ -1,17 +1,17 @@
 <h1 align="center">Olá! Me chamo Tcharlles, nice to meet you.</h1>
 <h3 align="center">Sou um desenvolvedor Frontend apaixonado por User Interface, Mercado Digital e Vendas.</h3>
 
-- 🌱 Atualmente estudando sobre **Interfaces de usuário, Design e User Experience**
+- 🌱 Atualmente estudando sobre **Interfaces de usuário, Design e User Experience**;
 
-- 🤝 Disponível para **Alavancar os resultados do seu negócio físico ou online**
+- 🤝 Disponível para **Alavancar os resultados do seu negócio físico ou online**;
 
-- 📫 Todos meus projetos e meios de contato em [tcharlles.dev](https://tcharlles.dev)
+- 📫 Todos meus projetos e meios de contato em **[tcharlles.dev](https://tcharlles.dev)**;
 
 - ⚡ Fun fact **Apesar de amar e viver de tecnologia, também amo ficar no meio do mato.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/tcharllesdev" target="blank"><img margin-right="8px" align="center" src="https://simpleicons.org/icons/linkedin.svg" alt="tcharllesdev" height="40" width="40" /></a>           
+<a href="https://linkedin.com/in/tcharllesdev" target="blank"><img align="center" src="https://simpleicons.org/icons/linkedin.svg" alt="tcharllesdev" height="40" width="40" /></a>           
 <a href="https://instagram.com/tcharlles.dev" target="blank"><img align="center" src="https://simpleicons.org/icons/instagram.svg" alt="tcharlles.dev" height="40" width="40" /></a>         
 <a href="https://www.behance.net/tcharllesdev" target="blank"><img align="center" src="https://simpleicons.org/icons/behance.svg" alt="tcharllesdev" height="40" width="40" /></a>    
 </p>

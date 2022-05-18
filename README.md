@@ -11,7 +11,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/tcharllesdev" target="blank"><img align="center" src="https://simpleicons.org/icons/linkedin.svg" alt="tcharllesdev" height="40" width="40" /></a>           
+<a href="https://linkedin.com/in/tcharllesdev" target="blank"><img margin-right="8px" align="center" src="https://simpleicons.org/icons/linkedin.svg" alt="tcharllesdev" height="40" width="40" /></a>           
 <a href="https://instagram.com/tcharlles.dev" target="blank"><img align="center" src="https://simpleicons.org/icons/instagram.svg" alt="tcharlles.dev" height="40" width="40" /></a>         
 <a href="https://www.behance.net/tcharllesdev" target="blank"><img align="center" src="https://simpleicons.org/icons/behance.svg" alt="tcharllesdev" height="40" width="40" /></a>    
 </p>

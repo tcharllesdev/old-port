@@ -5,13 +5,13 @@
 
 - 🤝 Disponível para **Alavancar os resultados do seu negócio físico ou online**
 
-- 📫 Todos meus projetos e meios de contato em [https://tcharlles.dev](https://tcharlles.dev)
+- 📫 Todos meus projetos e meios de contato em [tcharlles.dev](https://tcharlles.dev)
 
 - ⚡ Fun fact **Apesar de amar e viver de tecnologia, também amo ficar no meio do mato.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/tcharllesdev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tcharllesdev" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/tcharllesdev" target="blank"><img align="center" src="https://simpleicons.org/icons/linkedin.svg" alt="tcharllesdev" height="40" width="40" /></a>
 <a href="https://instagram.com/tcharlles.dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="tcharlles.dev" height="30" width="40" /></a>
 <a href="https://www.behance.net/tcharllesdev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/behance.svg" alt="tcharllesdev" height="30" width="40" /></a>
 </p>

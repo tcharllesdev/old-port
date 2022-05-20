@@ -1,0 +1,92 @@
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width:431px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+.btn1 {
+  display: flex;
+  align-items: center;
+   gap: 20px;
+  padding: 20px;
+  font: 700 1.5rem/1.25 "sora";
+  max-width: 480px;
+  text-transform: uppercase;
+  background: rgb(24, 3, 33);
+  background-image: linear-gradient(
+    139deg,
+    rgba(24, 3, 33, 1) 0%,
+    rgba(50, 9, 85, 1) 29%,
+    rgba(79, 0, 149, 1) 40%,
+    rgba(43, 16, 67, 1) 76%
+  );
+  box-shadow: 2px 2px 3px 1px rgba(237, 237, 237, 0.1);
+  border-radius: 5px;
+  background-position: 0 0;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite alternate;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+  background-size: 400% 200%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@keyframes textura {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+.btn2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 190px 20px 20px;
+  font: 700 1.5rem/1 "sora";
+  max-width: 460px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    139deg,
+    rgba(24, 3, 33, 1) 0%,
+    rgba(50, 9, 85, 1) 29%,
+    rgba(79, 0, 149, 1) 40%,
+    rgba(43, 16, 67, 1) 76%
+  );
+  box-shadow: 2px 2px 3px 1px rgba(237, 237, 237, 0.1);
+  border-radius: 5px;
+  background-size: 400% 200%;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn2:before {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  transform-origin: left bottom;
+  transform: skew(30deg) translateX(-70px);
+  transition: all 0.6s;
+  opacity: 0.4;
+}
+
+.btn2:hover:before {
+  transform: skew(30deg) translateX(460px);
+}
+
+/* .btn2:hover {
+  animation: textura 1.5s cubic-bezier(0.2, 0.5, 0.9, 0.6) 0.1s reverse infinite;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+} */

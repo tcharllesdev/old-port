@@ -20,17 +20,17 @@
 }
 
 .links-main > h1 {
-  font-size: 1.5rem;
+  font-size: 1.875rem;
   margin-bottom: 4px;
   letter-spacing: 0.02em;
 }
 
 .prof {
-  font: 400 0.75rem/1.5 "sora";
+  font: 400 0.875rem/1.5 "sora";
 }
 
 .links-main > p {
-  font: 400 0.875rem/1.5 "sora";
+  font: 400 1rem/1.5 "sora";
   max-width: 460px;
   margin-top: 16px;
 }
@@ -38,9 +38,9 @@
 .cta {
   max-width: 380px;
   align-self: flex-start;
-  font: 400 0.875rem/1.5 "sora";
+  font: 400 1rem/1.5 "sora";
   margin-top: 20px;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
   position: relative;
 }
 
@@ -55,15 +55,6 @@
   right: -15px;
 }
 
-@keyframes seta{
-  from {
-    top: 4px;
-  }
-  to {
-    top: 15px;
-  }
-}
-
 .links-main > a {
   margin-bottom: 30px;
 }
@@ -73,5 +64,51 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  margin-top: 240px;
+  margin-top: 60px;
+}
+
+/*RESPONSIVO*/
+
+@media (max-width: 800px) {
+  .main-bg {
+    background-image: url("../img/bg-800.jpg");
+  }
+}
+
+@media (max-width: 435px) {
+  .main-bg {
+    background-image: url("../img/bg-430.jpg");
+  }
+  .btn1 {
+    font-size: 1.175rem;
+    padding-right: 10px;
+    gap: 10px;
+  }
+  .btn2 {
+    font-size: 1.175rem;
+    padding-right: 140px;
+  }
+}
+
+@media (max-width: 320px) {
+.links-main > h1 {
+  font-size: 1.70rem;
+}
+  .prof {
+    display: flex;
+    align-self: flex-start;
+    font-size: 0.75rem;
+  }
+  .links-main > p {
+    font-size: 0.875rem;
+  }
+  .btn1 {
+    font-size: 1.175rem;
+    padding-right: 10px;
+    gap: 10px;
+  }
+  .btn2 {
+    font-size: 1.175rem;
+    padding-right: 50px;
+  }
 }

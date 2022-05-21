@@ -15,7 +15,7 @@
 .avatar-img img {
   border-radius: 50%;
   border: 4px solid #4e2274;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
@@ -40,7 +40,7 @@
   align-self: flex-start;
   font: 400 1rem/1.5 "sora";
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   position: relative;
 }
 

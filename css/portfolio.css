@@ -85,11 +85,25 @@
 
 .contato > p {
   margin-bottom: 8px;
+  max-width: 760px;
 }
 
 .contato p:last-of-type {
   margin-top: 10px;
   padding-bottom: 22px;
+  position: relative;
+  max-width: 200px;
+}
+
+.contato p:last-of-type::after {
+  content: "";
+  background-image: url("../img/icons/seta.svg");
+  position: absolute;
+  height: 16px;
+  width: 10px;
+  animation: seta 0.5s ease-in 0s infinite alternate;
+  top: 4px;
+  right: 5px;
 }
 
 .contato img {

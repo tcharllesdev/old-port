@@ -36,7 +36,8 @@
   box-shadow: 2px 2px 3px 1px rgba(237, 237, 237, 0.1);
   border-radius: 5px;
   background-position: 0 0;
-  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite alternate;
+  animation: slide-in-left 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.8s both,
+    textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite alternate;
   transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
   background-size: 400% 200%;
   overflow: hidden;
@@ -119,33 +120,22 @@
   transform: skew(30deg) translateX(460px);
 }
 
-/*SETA */
-
-@keyframes seta {
-  from {
-    top: 4px;
-  }
-  to {
-    top: 15px;
-  }
-}
-
 /*FLOAT WHATSAPP*/
-.float {
-  position: fixed;
-  width: 40px;
-  height: 40px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
-  z-index: 100;
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
 }
 
-.my-float {
-  margin-top: 6px;
+.my-float{
+	margin-top:16px;
 }

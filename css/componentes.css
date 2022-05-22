@@ -1,10 +1,16 @@
-.container {
+.container-links {
   max-width: 480px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+.container {
+  max-width: 1160px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 @media (max-width: 431px) {
+  .container-links,
   .container {
     padding: 0 40px;
   }
@@ -18,6 +24,32 @@
   padding: 15px 20px 15px 20px;
   font: 700 1.5rem/1.25 "sora";
   max-width: 480px;
+  text-transform: uppercase;
+  background: rgb(24, 3, 33);
+  background-image: linear-gradient(
+    139deg,
+    rgba(24, 3, 33, 1) 0%,
+    rgba(50, 9, 85, 1) 29%,
+    rgba(79, 0, 149, 1) 40%,
+    rgba(43, 16, 67, 1) 76%
+  );
+  box-shadow: 2px 2px 3px 1px rgba(237, 237, 237, 0.1);
+  border-radius: 5px;
+  background-position: 0 0;
+  animation: textura 4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite alternate;
+  transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94);
+  background-size: 400% 200%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn3 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 10px 15px 20px;
+  font: 700 1rem/1.25 "sora";
+  max-width: 320px;
   text-transform: uppercase;
   background: rgb(24, 3, 33);
   background-image: linear-gradient(
@@ -96,4 +128,24 @@
   to {
     top: 15px;
   }
+}
+
+/*FLOAT WHATSAPP*/
+.float {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 6px;
 }

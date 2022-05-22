@@ -4,7 +4,7 @@
 
 body {
   margin: 0px;
-  font-family: 'Sora', Arial, sans-serif;
+  font-family: "Sora", Arial, sans-serif;
   color: #ededed;
 }
 
@@ -43,4 +43,17 @@ input {
 
 button {
   border-style: none;
+}
+
+.p1 {
+  color: #7630B4;
+}
+
+.p2 {
+  color: #ededed;
+}
+
+.p3 {
+  color: #121212;
+  
 }

@@ -47,10 +47,6 @@
 }
 
 @media (max-width: 435px) {
-  .portfolio-item img {
-    width: 300px;
-    height: 340px;
-  }
   .header p,
   .contato p {
     font-size: 0.875rem;

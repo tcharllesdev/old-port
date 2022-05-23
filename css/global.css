@@ -6,7 +6,6 @@ body {
   margin: 0px;
   font-family: "Sora", Arial, sans-serif;
   color: #ededed;
-  overflow: hidden;
 }
 
 h1,
@@ -47,7 +46,7 @@ button {
 }
 
 .p1 {
-  color: #7630B4;
+  color: #7630b4;
 }
 
 .p2 {
@@ -56,5 +55,4 @@ button {
 
 .p3 {
   color: #121212;
-  
 }

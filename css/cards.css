@@ -1,0 +1,105 @@
+.scene {
+  width: 360px;
+  height: 400px;
+  perspective: 600px;
+  background-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.scene:nth-child(3) p,
+.scene:nth-child(4) p,
+.scene:nth-child(5) p {
+  color: #121212;
+}
+
+.scene > p {
+  font-size: 0.875rem;
+  margin-bottom: 6px;
+  margin-left: 10px;
+  position: relative;
+  letter-spacing: 0.01em;
+}
+
+.scene p::before {
+  content: "";
+  width: 3px;
+  height: 12px;
+  background-color: #7630b4;
+  position: absolute;
+  display: block;
+  top: 3px;
+  left: -8px;
+}
+
+.card,
+.card2,
+.card3,
+.card4,
+.card5 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card-face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.card-back,
+.card-back2,
+.card-back3,
+.card-back4,
+.card-back5 {
+  background-color: #10021d;
+  width: 360px;
+  height: 400px;
+  transform: rotateY(180deg);
+  border-radius: 5px;
+}
+
+.card-back a,
+.card-back2 a,
+.card-back3 a,
+.card-back4 a,
+.card-back5 a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid #7630b4;
+  border-radius: 50px;
+  padding: 10px 20px 10px 20px;
+  max-width: 180px;
+  margin: 300px auto 40px auto;
+}
+
+.card.is-flipped,
+.card2.is-flipped,
+.card3.is-flipped,
+.card4.is-flipped,
+.card5.is-flipped {
+  transform: rotateY(180deg);
+}
+
+@media (max-width: 435px) {
+  .card-back,
+  .card-back2,
+  .card-back3,
+  .card-back4,
+  .card-back5,
+  .scene {
+    width: 300px;
+    height: 340px;
+  }
+  .card-back a,
+  .card-back2 a,
+  .card-back3 a,
+  .card-back4 a,
+  .card-back5 a {
+    margin-top: 250px;
+  }
+}

@@ -1,6 +1,7 @@
 .main-bg {
   background-image: url("../img/bg.jpg");
   background-position: top;
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   height: 1100px;

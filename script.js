@@ -24,3 +24,8 @@ var card5 = document.querySelector(".card5");
 card5.addEventListener("click", function () {
   card5.classList.toggle("is-flipped");
 });
+
+var card6 = document.querySelector(".card6");
+card6.addEventListener("click", function () {
+  card6.classList.toggle("is-flipped");
+});
